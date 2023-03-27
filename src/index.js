@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Convert from './Convert'
+import Header from './Header'
+import Navbar from './Navbar'
+import Dec2bin from './Dec2bin'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Convert />
+    {/* <Header /> */}
+    <Navbar />
+    <Dec2bin />
 
   </React.StrictMode>
 );

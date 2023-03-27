@@ -1,9 +1,9 @@
 import React from "react";
 import './App.css'
 import { useState } from "react";
-import './Convert.css'
+import './Dec2bin.css'
 
-function Convert() {
+function Dec2bin() {
     const [decimal, setDecimal] = useState("");
     const [binary, setBinary] = useState("");
 
@@ -15,7 +15,7 @@ function Convert() {
 
     return (
       <div>
-        <h1 className="header">Decimal to Binary Converter</h1>
+        {/* <h1 className="header">Decimal to Binary Converter</h1> */}
         <div className="input">
             <label className="input--label" htmlFor="decimal">Enter a decimal number: </label>
             <input className="input--dec"
@@ -33,4 +33,4 @@ function Convert() {
     );
 }
 
-export default Convert;
+export default Dec2bin;

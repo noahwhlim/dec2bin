@@ -1,0 +1,11 @@
+h1 {
+    font-family: 'Inter', ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 500;
+    background-color: rgb(59, 65, 65);
+    margin: 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
