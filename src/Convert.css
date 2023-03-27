@@ -1,4 +1,30 @@
+@import url('https://fonts.google.com/specimen/Inter');
+
+* {
+    font-family: 'Inter', ;
+    
+}
+
 .header {
     display: flex;
     justify-content: center;
+    font-weight: 500;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#convert {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }

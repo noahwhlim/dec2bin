@@ -16,15 +16,19 @@ function Convert() {
     return (
       <div>
         <h1 className="header">Decimal to Binary Converter</h1>
-        <label htmlFor="decimal">Enter a decimal number:</label>
-        <input
-          type="number"
-          id="decimal"
-          value={decimal}
-          onChange={(e) => setDecimal(e.target.value)}
-        />
-        <button onClick={convertToBinary}>Convert</button>
-        <p>Binary number: {binary}</p>
+        <div className="input">
+            <label className="input--label" htmlFor="decimal">Enter a decimal number: </label>
+            <input className="input--dec"
+            type="number"
+            id="decimal"
+            value={decimal}
+            onChange={(e) => setDecimal(e.target.value)}
+            />
+        </div>
+        <div id="convert">
+            <button onClick={convertToBinary}>Convert</button>
+        </div>
+        <p className="output">Binary number: {binary}</p>
       </div>
     );
 }
